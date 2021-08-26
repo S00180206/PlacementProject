@@ -1,0 +1,1683 @@
+﻿Log file open, 08/26/21 20:16:42
+LogInit: Display: Running engine for game: NightmareEscape
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.206218
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 5 2600 Six-Core Processor            , GPU: NVIDIA GeForce GTX 1660 Ti
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/Config/Windows/Engine.ini]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.Mobile.VirtualTextures:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.AnisotropicBRDF:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:1]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:1]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Bias:1.000000]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2021.08.26-19.16.43:053][  0]LogConfig: Setting CVar [[r.VertexDeformationOutputsVelocity:0]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.MeshStreaming:0]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.SkinCache.DefaultBehavior:1]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.GPUSkin.Support16BitBoneIndex:0]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/Config/Windows/Engine.ini]
+[2021.08.26-19.16.43:054][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/Config/Windows/Engine.ini]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/Config/Windows/Engine.ini]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.08.26-19.16.43:054][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/Config/Windows/Engine.ini]
+[2021.08.26-19.16.43:054][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/Config/Windows/Engine.ini]
+[2021.08.26-19.16.43:058][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/Config/Windows/Scalability.ini]
+[2021.08.26-19.16.43:058][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.08.26-19.16.43:058][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/Config/Windows/Scalability.ini]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/Config/Windows/Scalability.ini]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/Config/Windows/Scalability.ini]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/Config/Windows/Scalability.ini]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/Config/Windows/Scalability.ini]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.08.26-19.16.43:059][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/Config/Windows/Scalability.ini]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/Config/Windows/Scalability.ini]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.08.26-19.16.43:060][  0]LogInit: Selected Device Profile: [Windows]
+[2021.08.26-19.16.43:060][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.08.26-19.16.43:060][  0]LogHAL: Display: Platform has ~ 16 GB [17126981632 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.08.26-19.16.43:060][  0]LogInit: Going up to parent DeviceProfile []
+[2021.08.26-19.16.43:060][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/Config/Windows/Scalability.ini]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/Config/Windows/Scalability.ini]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/Config/Windows/Scalability.ini]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/Config/Windows/Scalability.ini]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.08.26-19.16.43:060][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/Config/Windows/Scalability.ini]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/Config/Windows/Scalability.ini]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/Config/Windows/Scalability.ini]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/Config/Windows/Scalability.ini]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.08.26-19.16.43:061][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.08.26-19.16.43:061][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.08.26-19.16.43:062][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.08.26-19.16.43:062][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.08.26-19.16.43:062][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/Config/Windows/Engine.ini]
+[2021.08.26-19.16.43:062][  0]LogInit: Computer: DESKTOP-ADOBA4O
+[2021.08.26-19.16.43:062][  0]LogInit: User: johnn
+[2021.08.26-19.16.43:062][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.08.26-19.16.43:062][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.08.26-19.16.43:062][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2021.08.26-19.16.43:062][  0]LogMemory: Platform Memory Stats for Windows
+[2021.08.26-19.16.43:062][  0]LogMemory: Process Physical Memory: 117.18 MB used, 117.19 MB peak
+[2021.08.26-19.16.43:062][  0]LogMemory: Process Virtual Memory: 105.32 MB used, 105.32 MB peak
+[2021.08.26-19.16.43:062][  0]LogMemory: Physical Memory: 6309.73 MB used,  10023.84 MB free, 16333.56 MB total
+[2021.08.26-19.16.43:062][  0]LogMemory: Virtual Memory: 5174.91 MB used,  134212552.00 MB free, 134217728.00 MB total
+[2021.08.26-19.16.43:068][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.08.26-19.16.43:117][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.08.26-19.16.43:118][  0]LogInit: Using OS detected language (en-GB).
+[2021.08.26-19.16.43:118][  0]LogInit: Using OS detected locale (en-GB).
+[2021.08.26-19.16.43:123][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2021.08.26-19.16.43:304][  0]LogInit: Setting process to per monitor DPI aware
+[2021.08.26-19.16.43:342][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.08.26-19.16.43:343][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.08.26-19.16.43:527][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.08.26-19.16.43:527][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.08.26-19.16.43:527][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.08.26-19.16.43:527][  0]LogD3D11RHI: D3D11 adapters:
+[2021.08.26-19.16.43:634][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660 Ti' (Feature Level 11_0)
+[2021.08.26-19.16.43:634][  0]LogD3D11RHI:       5991/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.08.26-19.16.43:636][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.08.26-19.16.43:636][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.08.26-19.16.43:636][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.08.26-19.16.43:643][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.08.26-19.16.43:643][  0]LogD3D11RHI:     GPU DeviceId: 0x2182 (for the marketing name, search the web for "GPU Device Id")
+[2021.08.26-19.16.43:643][  0]LogWindows: EnumDisplayDevices:
+[2021.08.26-19.16.43:643][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1660 Ti' (P:1 D:1)
+[2021.08.26-19.16.43:643][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:1)
+[2021.08.26-19.16.43:644][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2021.08.26-19.16.43:644][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660 Ti' (P:0 D:0)
+[2021.08.26-19.16.43:644][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.08.26-19.16.43:644][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660 Ti
+[2021.08.26-19.16.43:644][  0]LogD3D11RHI:   Driver Version: 456.71 (internal:27.21.14.5671, unified:456.71)
+[2021.08.26-19.16.43:644][  0]LogD3D11RHI:      Driver Date: 9-30-2020
+[2021.08.26-19.16.43:644][  0]LogRHI: Texture pool is 4193 MB (70% of 5991 MB)
+[2021.08.26-19.16.43:716][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.08.26-19.16.43:716][  0]LogD3D11RHI: Async texture creation enabled
+[2021.08.26-19.16.43:716][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.08.26-19.16.43:753][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.08.26-19.16.44:058][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.08.26-19.16.44:084][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.08.26-19.16.44:084][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.08.26-19.16.44:084][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.08.26-19.16.44:084][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.08.26-19.16.44:084][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.08.26-19.16.44:084][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.08.26-19.16.44:084][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.08.26-19.16.44:084][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.08.26-19.16.44:084][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.08.26-19.16.44:084][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.08.26-19.16.44:114][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.08.26-19.16.44:114][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.08.26-19.16.44:128][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.08.26-19.16.44:139][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.08.26-19.16.44:151][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.08.26-19.16.44:162][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.08.26-19.16.44:174][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.08.26-19.16.44:186][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.08.26-19.16.44:198][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.08.26-19.16.44:231][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.08.26-19.16.44:231][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.08.26-19.16.44:252][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.08.26-19.16.44:252][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.08.26-19.16.44:264][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.08.26-19.16.44:276][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.08.26-19.16.44:288][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.08.26-19.16.44:300][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.08.26-19.16.44:300][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.08.26-19.16.44:310][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.08.26-19.16.44:385][  0]LogShaderCompilers: Guid format shader working directory is -43 characters bigger than the processId version (../../../../../../Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Intermediate/Shaders/WorkingDirectory/13828/).
+[2021.08.26-19.16.44:386][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/johnn/AppData/Local/Temp/UnrealShaderWorkingDir/3CF980FB4367F95752962F9A24919285/'.
+[2021.08.26-19.16.44:386][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.08.26-19.16.44:386][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.08.26-19.16.44:386][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.08.26-19.16.45:168][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.08.26-19.16.45:230][  0]LogDerivedDataCache: Loaded boot cache 0.06s 75MB C:/Users/johnn/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.08.26-19.16.45:231][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/johnn/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.08.26-19.16.45:231][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.08.26-19.16.45:231][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.08.26-19.16.45:231][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.08.26-19.16.45:231][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.08.26-19.16.45:242][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.08.26-19.16.45:242][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.08.26-19.16.45:242][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.08.26-19.16.45:244][  0]LogDerivedDataCache: Using Local data cache path C:/Users/johnn/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.08.26-19.16.45:244][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.08.26-19.16.45:244][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.08.26-19.16.45:296][  0]LogSlate: Using FreeType 2.10.0
+[2021.08.26-19.16.45:297][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.08.26-19.16.45:320][  0]LogAssetRegistry: FAssetRegistry took 0.0029 seconds to start up
+[2021.08.26-19.16.45:575][  0]LogInit: Selected Device Profile: [Windows]
+[2021.08.26-19.16.45:688][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.08.26-19.16.45:688][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.08.26-19.16.45:688][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.08.26-19.16.45:688][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.08.26-19.16.45:688][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.08.26-19.16.45:705][  0]LogNetVersion: NightmareEscape 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3313603388)
+[2021.08.26-19.16.46:119][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000021FD6574340), frame # 0
+[2021.08.26-19.16.46:119][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021FD64B4CC0), frame # 0
+[2021.08.26-19.16.46:121][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021FD64FDE00), frame # 0
+[2021.08.26-19.16.46:189][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.060953 seconds
+[2021.08.26-19.16.46:194][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.08.26-19.16.46:194][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.08.26-19.16.46:194][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.08.26-19.16.46:580][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.08.26-19.16.46:585][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.08.26-19.16.46:634][  0]LogLinker: Warning: Failed to load '/Game/FirstPersonBP/FirstPersonOverview': Can't find file.
+[2021.08.26-19.16.46:634][  0]LogLinker: Warning: Failed to load '/Game/FirstPersonBP/FirstPersonOverview': Can't find file.
+[2021.08.26-19.16.46:634][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2021.08.26-19.16.46:674][  0]SourceControl: Source control is disabled
+[2021.08.26-19.16.46:674][  0]SourceControl: Source control is disabled
+[2021.08.26-19.16.46:678][  0]SourceControl: Source control is disabled
+[2021.08.26-19.16.46:681][  0]SourceControl: Source control is disabled
+[2021.08.26-19.16.46:689][  0]SourceControl: Source control is disabled
+[2021.08.26-19.16.46:975][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.08.26-19.16.46:999][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.08.26-19.16.46:999][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.08.26-19.16.47:060][  0]LogOcInput: OculusInput pre-init called
+[2021.08.26-19.16.47:074][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.08.26-19.16.47:074][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.08.26-19.16.47:142][  0]LogEngine: Initializing Engine...
+[2021.08.26-19.16.47:144][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.08.26-19.16.47:144][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.08.26-19.16.47:144][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.08.26-19.16.47:265][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.08.26-19.16.47:278][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.08.26-19.16.47:278][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021FDBA90600), frame # 0
+[2021.08.26-19.16.47:278][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021FDBA76480), frame # 0
+[2021.08.26-19.16.47:283][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.26-19.16.47:283][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.26-19.16.47:283][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.26-19.16.47:283][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.26-19.16.47:284][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.26-19.16.47:284][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.26-19.16.47:284][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.26-19.16.47:284][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.26-19.16.47:284][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.26-19.16.47:284][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.26-19.16.47:297][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.26-19.16.47:297][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.08.26-19.16.47:297][  0]LogAudioMixer: Display: 2: FrontCenter
+[2021.08.26-19.16.47:297][  0]LogAudioMixer: Display: 3: LowFrequency
+[2021.08.26-19.16.47:297][  0]LogAudioMixer: Display: 4: BackLeft
+[2021.08.26-19.16.47:297][  0]LogAudioMixer: Display: 5: BackRight
+[2021.08.26-19.16.47:297][  0]LogAudioMixer: Display: 6: SideLeft
+[2021.08.26-19.16.47:297][  0]LogAudioMixer: Display: 7: SideRight
+[2021.08.26-19.16.47:346][  0]LogAudioMixer: Display: Using Audio Device Speakers (7.1 Surround Sound)
+[2021.08.26-19.16.47:350][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.26-19.16.47:354][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.26-19.16.47:354][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.26-19.16.47:355][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.26-19.16.47:356][  0]LogInit: FAudioDevice initialized.
+[2021.08.26-19.16.47:356][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.08.26-19.16.47:469][  0]LogDerivedDataCache: Saved boot cache 0.11s 75MB C:/Users/johnn/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.08.26-19.16.47:471][  0]LogInit: Texture streaming: Enabled
+[2021.08.26-19.16.47:492][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.08.26-19.16.47:493][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.08.26-19.16.47:498][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.08.26-19.16.47:586][  0]LogInit: Transaction tracking system initialized
+[2021.08.26-19.16.47:610][  0]BlueprintLog: New page: Editor Load
+[2021.08.26-19.16.47:690][  0]LocalizationService: Localization service is disabled
+[2021.08.26-19.16.47:868][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.08.26-19.16.47:868][  0]LogCook: Display: Mobile HDR setting 1
+[2021.08.26-19.16.48:031][  0]LogFileCache: Scanning file cache for directory 'C:/Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Content/' took 0.01s
+[2021.08.26-19.16.48:224][  0]SourceControl: Source control is disabled
+[2021.08.26-19.16.48:224][  0]LogUnrealEdMisc: Loading editor; pre map load, took 7.369
+[2021.08.26-19.16.48:224][  0]Cmd: MAP LOAD FILE="../../../../../../Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.08.26-19.16.48:225][  0]LightingResults: New page: Lighting Build
+[2021.08.26-19.16.48:226][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.08.26-19.16.48:226][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.26-19.16.48:226][  0]MapCheck: New page: Map Check
+[2021.08.26-19.16.48:226][  0]LightingResults: New page: Lighting Build
+[2021.08.26-19.16.48:244][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021FDBA90600), frame # 0
+[2021.08.26-19.16.48:244][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021FDBA76480), frame # 0
+[2021.08.26-19.16.48:245][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2021.08.26-19.16.49:018][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.08.26-19.16.49:018][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021FC89C5800), frame # 0
+[2021.08.26-19.16.49:018][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021FC89CE980), frame # 0
+[2021.08.26-19.16.49:040][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.08.26-19.16.49:060][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2021.08.26-19.16.49:060][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.08.26-19.16.49:060][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.335ms to complete.
+[2021.08.26-19.16.49:060][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.837
+[2021.08.26-19.16.49:063][  0]LogUnrealEdMisc: Total Editor Startup Time, took 8.208
+[2021.08.26-19.16.49:197][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.26-19.16.49:204][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.26-19.16.49:211][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.26-19.16.49:219][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.26-19.16.49:228][  0]LogCollectionManager: Loaded 0 collections in 0.002192 seconds
+[2021.08.26-19.16.49:244][  0]LogFileCache: Scanning file cache for directory 'C:/Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/Collections/' took 0.00s
+[2021.08.26-19.16.49:244][  0]LogFileCache: Scanning file cache for directory 'C:/Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Content/Developers/johnn/Collections/' took 0.00s
+[2021.08.26-19.16.49:244][  0]LogFileCache: Scanning file cache for directory 'C:/Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Content/Collections/' took 0.00s
+[2021.08.26-19.16.49:244][  0]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 3427 classes and 821 folders.
+[2021.08.26-19.16.49:247][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.08.26-19.16.49:320][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.08.26-19.16.49:321][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2021.08.26-19.16.49:452][  0]LogSlate: Took 0.000295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.08.26-19.16.49:454][  0]LogSlate: Took 0.000304 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.08.26-19.16.49:459][  0]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.08.26-19.16.49:521][  0]LogRenderer: Reallocating scene render targets to support 1136x548 Format 10 NumSamples 1 (Frame:1).
+[2021.08.26-19.16.49:723][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.08.26-19.16.49:724][  0]LogLoad: (Engine Initialization) Total time: 8.87 seconds
+[2021.08.26-19.16.49:724][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.08.26-19.16.49:767][  0]LogAssetRegistry: Asset discovery search completed in 4.4485 seconds
+[2021.08.26-19.16.49:770][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2021.08.26-19.16.49:771][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.08.26-19.16.49:810][  0]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.08.26-19.20.11:787][359]LogEditorViewport: Clicking on Actor (LMB): JillGhost_C (JillGhost)
+[2021.08.26-19.26.00:125][298]LogActorFactory: Actor Factory created Wall_Door_400x400
+[2021.08.26-19.26.14:955][750]LogActorFactory: Actor Factory created Wall_Door_400x400
+[2021.08.26-19.26.16:603][939]Cmd: TRANSACTION UNDO
+[2021.08.26-19.26.16:603][939]LogEditorTransaction: Undo Create Actors
+[2021.08.26-19.26.16:647][939]LogSlate: Took 0.000314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.08.26-19.26.19:504][142]LogActorFactory: Actor Factory created Wall_Door_400x300
+[2021.08.26-19.26.22:629][423]LogActorFactory: Actor Factory created Wall_Door_400x300
+[2021.08.26-19.26.24:723][648]LogSlate: Took 0.000383 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.08.26-19.26.48:053][159]Cmd: TRANSACTION UNDO
+[2021.08.26-19.26.48:053][159]LogEditorTransaction: Undo Rotate Actors
+[2021.08.26-19.26.49:682][296]Cmd: MODE ROTGRID=1
+[2021.08.26-19.27.34:793][323]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
+[2021.08.26-19.27.59:543][676]LogActorFactory: Actor Factory created Wall_Window_400x300
+[2021.08.26-19.28.01:741][836]LogActorFactory: Actor Factory created Wall_Window_400x300
+[2021.08.26-19.29.04:015][397]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x404)
+[2021.08.26-19.29.12:258][369]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2021.08.26-19.29.13:999][568]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x404)
+[2021.08.26-19.29.28:049][ 98]Cmd: TRANSACTION UNDO
+[2021.08.26-19.29.28:049][ 98]LogEditorTransaction: Undo Move Actors
+[2021.08.26-19.29.29:154][165]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x300)
+[2021.08.26-19.29.33:618][643]Cmd: MODE GRID=0
+[2021.08.26-19.29.53:139][694]LogEditorViewport: Clicking on Actor (LMB): WindowRain_C (WindowRain)
+[2021.08.26-19.30.04:143][722]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x300)
+[2021.08.26-19.30.44:824][197]MapCheck: New page: Map Check
+[2021.08.26-19.30.44:839][197]LightingResults: New page: Lighting Build - 26 Aug 2021, 21:30:44
+[2021.08.26-19.30.45:027][197]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.08.26-19.30.45:445][197]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.08.26-19.30.45:458][197]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.08.26-19.30.46:468][197]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.08.26-19.30.46:468][197]LogSwarmInterface: [TryOpenConnection] Local Process ID is 13828
+[2021.08.26-19.31.08:318][197]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2021.08.26-19.31.08:319][197]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.08.26-19.31.08:319][197]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.08.26-19.31.08:319][197]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.08.26-19.31.08:319][197]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.08.26-19.31.08:319][197]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.08.26-19.31.08:580][197]LogEditorBuildUtils: Build time 0:23
+[2021.08.26-19.31.08:594][197]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Oak, compiling. 
+[2021.08.26-19.31.08:603][197]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Oak, compiling. 
+[2021.08.26-19.31.08:633][198]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2021.08.26-19.31.08:634][198]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2021.08.26-19.31.08:634][198]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2021.08.26-19.31.08:634][198]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2021.08.26-19.31.08:637][198]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Ceramic_Tile_Checker, compiling. 
+[2021.08.26-19.31.08:640][198]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Ceramic_Tile_Checker, compiling. 
+[2021.08.26-19.31.08:645][198]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Concrete_Tiles, compiling. 
+[2021.08.26-19.31.08:651][198]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Concrete_Tiles, compiling. 
+[2021.08.26-19.31.08:667][198]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 8
+[2021.08.26-19.31.08:667][198]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
+[2021.08.26-19.31.08:667][198]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2021.08.26-19.31.08:667][198]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 2
+[2021.08.26-19.31.10:467][208]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2021.08.26-19.31.11:714][247]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2021.08.26-19.31.11:797][247]LogSavePackage: Moving '../../../../../../Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/ThirdPersonExampleMap_Auto169D8E1A6487BD5BF9CBBAB9DF78A6167.tmp' to '../../../../../../Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2021.08.26-19.31.11:803][247]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.100
+[2021.08.26-19.31.11:803][247]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.100
+[2021.08.26-19.31.16:844][587]Job is a success!
+[2021.08.26-19.31.17:648][588]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.024s
+[2021.08.26-19.31.17:648][588]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2021.08.26-19.31.17:648][588]LogVolumetricLightmapImport:      BrickData (all levels) 0.2Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2021.08.26-19.31.17:648][588]LogVolumetricLightmapImport:      Bricks at depth
+[2021.08.26-19.31.17:648][588]LogVolumetricLightmapImport:          0: 2.3% covering 100.0% of volume
+[2021.08.26-19.31.17:648][588]LogVolumetricLightmapImport:          1: 9.1% covering 6.2% of volume
+[2021.08.26-19.31.17:648][588]LogVolumetricLightmapImport:          2: 88.6% covering 1.0% of volume
+[2021.08.26-19.31.17:648][588]LogVolumetricLightmapImport:      Bricks in each level
+[2021.08.26-19.31.17:648][588]LogVolumetricLightmapImport:          ThirdPersonExampleMap 			 44 bricks 	 100.0% (Persistent Level)
+[2021.08.26-19.31.18:025][588]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2021.08.26-19.31.18:026][588]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2021.08.26-19.31.18:026][588]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2021.08.26-19.31.18:026][588]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512)
+[2021.08.26-19.31.18:026][588]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2021.08.26-19.31.18:026][588]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2021.08.26-19.31.18:026][588]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
+[2021.08.26-19.31.18:026][588]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2021.08.26-19.31.18:026][588]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2021.08.26-19.31.18:225][588]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2021.08.26-19.31.18:387][588]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X1024)
+[2021.08.26-19.31.18:387][588]Lightmass on DESKTOP-ADOBA4O: 6.46 sec total, 241 ms importing, 31 ms setup, 803 ms photons, 4.70 sec processing, 0 ms extra exporting [21/21 mappings]. Threads: 51.7 sec total, 14.0 sec processing.
+[2021.08.26-19.31.18:387][588]LogStaticLightingSystem: ThirdPersonExampleMap_BuiltData storing lightmap data for 21 meshes in 3 LightmapResourceClusters (7.0 Meshes per cluster).
+[2021.08.26-19.31.18:404][588]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2021.08.26-19.31.18:424][588]LogStaticLightingSystem: Illumination: 33.5 sec (366 ms encoding lightmaps, 205 ms encoding shadowmaps)
+[2021.08.26-19.31.18:424][588]LogStaticLightingSystem: Lightmap texture memory:  5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 6 textures
+[2021.08.26-19.31.18:424][588]LogStaticLightingSystem: Shadowmap texture memory: 5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2021.08.26-19.31.19:332][588]DumpUnbuiltLightIteractions
+[2021.08.26-19.31.19:332][588]Lights with unbuilt interactions: 0
+[2021.08.26-19.31.19:332][588]
+[2021.08.26-19.31.19:332][588]Primitives with unbuilt interactions: 0
+[2021.08.26-19.31.19:437][589]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.08.26-19.31.19:437][589]MapCheck: New page: ThirdPersonExampleMap - 26 Aug 2021, 21:31:19
+[2021.08.26-19.31.19:438][589]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.947ms to complete.
+[2021.08.26-19.31.32:940][ 81]LogTemp: Repeating last play command: Selected Viewport
+[2021.08.26-19.31.32:963][ 81]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.08.26-19.31.32:963][ 81]PIE: New page: PIE session: ThirdPersonExampleMap (26 Aug 2021, 21:31:32)
+[2021.08.26-19.31.32:964][ 81]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.08.26-19.31.32:965][ 81]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.08.26-19.31.32:965][ 81]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.08.26-19.31.32:978][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013186s)
+[2021.08.26-19.31.32:979][ 81]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.08.26-19.31.32:980][ 81]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021F89485400), frame # 39081
+[2021.08.26-19.31.32:980][ 81]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021FCE6CE840), frame # 39081
+[2021.08.26-19.31.32:980][ 81]LogPlayLevel: PIE: World Init took: (0.001617s)
+[2021.08.26-19.31.32:980][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.015010s)
+[2021.08.26-19.31.33:000][ 81]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2021.08.26-19.31.33:002][ 81]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.26-19.31.33:002][ 81]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.26-19.31.33:002][ 81]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.26-19.31.33:002][ 81]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.26-19.31.33:002][ 81]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.26-19.31.33:002][ 81]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.26-19.31.33:002][ 81]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.26-19.31.33:003][ 81]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.26-19.31.33:003][ 81]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.26-19.31.33:003][ 81]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.26-19.31.33:007][ 81]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.26-19.31.33:007][ 81]LogAudioMixer: Display: 1: FrontRight
+[2021.08.26-19.31.33:007][ 81]LogAudioMixer: Display: 2: FrontCenter
+[2021.08.26-19.31.33:007][ 81]LogAudioMixer: Display: 3: LowFrequency
+[2021.08.26-19.31.33:007][ 81]LogAudioMixer: Display: 4: BackLeft
+[2021.08.26-19.31.33:007][ 81]LogAudioMixer: Display: 5: BackRight
+[2021.08.26-19.31.33:007][ 81]LogAudioMixer: Display: 6: SideLeft
+[2021.08.26-19.31.33:007][ 81]LogAudioMixer: Display: 7: SideRight
+[2021.08.26-19.31.33:033][ 81]LogAudioMixer: Display: Using Audio Device Speakers (7.1 Surround Sound)
+[2021.08.26-19.31.33:033][ 81]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.26-19.31.33:033][ 81]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.26-19.31.33:033][ 81]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.26-19.31.33:034][ 81]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.26-19.31.33:047][ 81]LogInit: FAudioDevice initialized.
+[2021.08.26-19.31.33:057][ 81]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.08.26-19.31.33:060][ 81]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.08.26-20.31.33
+[2021.08.26-19.31.33:061][ 81]LogWorld: Bringing up level for play took: 0.003158
+[2021.08.26-19.31.33:061][ 81]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.08.26-19.31.33:191][ 81]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2021.08.26-19.31.33:191][ 81]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.26-19.31.33:191][ 81]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.26-19.31.33:191][ 81]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.08.26-19.31.33:193][ 81]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.08.26-19.31.33:193][ 81]PIE: Server logged in
+[2021.08.26-19.31.33:194][ 81]PIE: Play in editor total start time 0.234 seconds.
+[2021.08.26-19.31.47:748][798]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.26-19.31.47:748][798]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.08.26-19.31.47:749][798]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.08.26-19.31.47:749][798]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.26-19.31.47:756][798]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.08.26-19.31.47:758][798]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.26-19.31.47:770][798]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.26-19.31.47:788][798]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021FCE6CE840), frame # 40798
+[2021.08.26-19.31.47:788][798]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021F89485400), frame # 40798
+[2021.08.26-19.31.47:789][798]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2021.08.26-19.31.47:827][799]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2021.08.26-19.37.11:270][550]LogActorFactory: Actor Factory created Wall_400x300
+[2021.08.26-19.37.13:223][758]LogActorFactory: Actor Factory created Wall_400x300
+[2021.08.26-19.37.20:679][632]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x408)
+[2021.08.26-19.37.22:973][899]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2021.08.26-19.37.35:573][124]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2021.08.26-19.37.36:731][261]Cmd: DELETE
+[2021.08.26-19.37.36:731][261]Cmd: ACTOR DELETE
+[2021.08.26-19.37.36:734][261]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.08.26-19.37.36:746][261]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2021.08.26-19.37.36:748][261]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2021.08.26-19.37.38:878][490]LogActorFactory: Actor Factory created Wall_Door_400x300
+[2021.08.26-19.37.41:430][767]LogActorFactory: Actor Factory created Wall_Door_400x300
+[2021.08.26-19.37.50:716][864]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x408)
+[2021.08.26-19.37.51:920][  1]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x301)
+[2021.08.26-19.38.03:814][341]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x408)
+[2021.08.26-19.38.08:660][878]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x301)
+[2021.08.26-19.41.28:659][974]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2021.08.26-19.41.28:734][974]LogSavePackage: Moving '../../../../../../Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/ThirdPersonExampleMap_Auto2B067BC404D30BA0C098673B9582163CD.tmp' to '../../../../../../Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2021.08.26-19.41.28:740][974]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.093
+[2021.08.26-19.41.28:740][974]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.093
+[2021.08.26-19.43.09:584][123]LogActorFactory: Actor Factory created Wall_400x300
+[2021.08.26-19.43.11:620][311]LogActorFactory: Actor Factory created Wall_400x300
+[2021.08.26-19.43.13:501][514]Cmd: MODE GRID=1
+[2021.08.26-19.43.31:093][218]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2021.08.26-19.44.24:979][255]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x409)
+[2021.08.26-19.44.30:335][845]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2021.08.26-19.44.43:143][244]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x300)
+[2021.08.26-19.44.46:868][620]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2021.08.26-19.46.19:668][574]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x300)
+[2021.08.26-19.46.27:038][287]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2021.08.26-19.46.30:387][653]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x300)
+[2021.08.26-19.46.37:579][343]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2021.08.26-19.47.45:363][454]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x300)
+[2021.08.26-19.47.47:269][663]Cmd: EDIT COPY
+[2021.08.26-19.47.48:056][748]Cmd: EDIT PASTE
+[2021.08.26-19.48.21:509][388]LogActorFactory: Actor Factory created Pillar_50x500
+[2021.08.26-19.48.27:506][ 23]LogActorFactory: Actor Factory created Pillar_50x500
+[2021.08.26-19.48.30:278][340]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x301)
+[2021.08.26-19.48.35:666][829]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x500)
+[2021.08.26-19.49.25:681][368]Cmd: TRANSACTION UNDO
+[2021.08.26-19.49.25:682][368]LogEditorTransaction: Undo Move Actors
+[2021.08.26-19.50.00:012][980]LogActorFactory: Actor Factory created Wall_Window_400x300
+[2021.08.26-19.50.06:271][667]LogActorFactory: Actor Factory created Wall_Window_400x300
+[2021.08.26-19.50.11:004][206]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2021.08.26-19.50.16:881][751]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x302)
+[2021.08.26-19.50.44:425][538]LogActorFactory: Actor Factory created Wall_Window_400x300
+[2021.08.26-19.51.01:049][ 86]LogActorFactory: Actor Factory created Wall_Window_400x300
+[2021.08.26-19.51.03:247][304]Cmd: TRANSACTION UNDO
+[2021.08.26-19.51.03:247][304]LogEditorTransaction: Undo Create Actors
+[2021.08.26-19.51.31:875][231]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2021.08.26-19.51.31:947][231]LogSavePackage: Moving '../../../../../../Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/ThirdPersonExampleMap_Auto3E5037A834968F792A8AE0B8A9C1CAE1E.tmp' to '../../../../../../Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2021.08.26-19.51.31:952][231]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.091
+[2021.08.26-19.51.31:952][231]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.091
+[2021.08.26-19.51.47:979][992]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2021.08.26-19.51.50:113][237]Cmd: EDIT COPY
+[2021.08.26-19.51.50:961][336]Cmd: EDIT PASTE
+[2021.08.26-19.52.36:655][571]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pillar_50x500)
+[2021.08.26-19.52.58:863][114]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x301)
+[2021.08.26-19.53.27:345][330]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x301)
+[2021.08.26-19.53.29:515][574]Cmd: EDIT COPY
+[2021.08.26-19.53.30:330][667]Cmd: EDIT PASTE
+[2021.08.26-19.55.05:481][975]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x302)
+[2021.08.26-19.55.26:775][401]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x301)
+[2021.08.26-19.55.29:962][725]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x301)
+[2021.08.26-19.55.37:702][484]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x301)
+[2021.08.26-19.55.43:073][ 14]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x302)
+[2021.08.26-19.57.13:883][342]LogActorFactory: Actor Factory created Wall_400x300
+[2021.08.26-19.57.25:817][550]LogActorFactory: Actor Factory created Wall_400x300
+[2021.08.26-19.58.34:348][919]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x302)
+[2021.08.26-19.58.36:076][103]Cmd: EDIT COPY
+[2021.08.26-19.58.36:767][177]Cmd: EDIT PASTE
+[2021.08.26-19.59.27:345][157]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2021.08.26-19.59.33:099][786]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2021.08.26-19.59.36:077][125]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x303)
+[2021.08.26-19.59.38:212][367]Cmd: EDIT COPY
+[2021.08.26-19.59.39:354][500]Cmd: EDIT PASTE
+[2021.08.26-20.00.26:119][773]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x301)
+[2021.08.26-20.00.27:373][907]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x302)
+[2021.08.26-20.00.29:966][198]Cmd: EDIT COPY
+[2021.08.26-20.00.30:731][285]Cmd: EDIT PASTE
+[2021.08.26-20.01.11:948][589]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2021.08.26-20.01.13:119][717]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x304)
+[2021.08.26-20.02.14:860][504]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x414)
+[2021.08.26-20.02.16:341][670]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x304)
+[2021.08.26-20.02.28:418][901]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x301)
+[2021.08.26-20.02.32:959][346]Cmd: EDIT COPY
+[2021.08.26-20.02.33:982][445]Cmd: EDIT PASTE
+[2021.08.26-20.03.18:315][815]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.08.26-20.03.19:423][937]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x305)
+[2021.08.26-20.04.10:168][305]Cmd: EDIT COPY
+[2021.08.26-20.04.11:175][397]Cmd: EDIT PASTE
+[2021.08.26-20.04.42:077][ 17]LogActorFactory: Actor Factory created Wall_Door_400x300
+[2021.08.26-20.04.53:516][874]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_Window_400x306)
+[2021.08.26-20.05.05:320][805]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/StarterContent/Architecture/Wall_Window_400x300.Wall_Window_400x300
+[2021.08.26-20.05.05:844][805]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.08.26-20.05.05:844][805]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.26-20.05.06:104][806]LogRenderer: Reallocating scene render targets to support 1136x680 Format 10 NumSamples 1 (Frame:1).
+[2021.08.26-20.05.07:989][928]LogSlate: Window 'Wall_Window_400x300' being destroyed
+[2021.08.26-20.05.08:004][928]LogSlate: Window 'Wall_Window_400x300' being destroyed
+[2021.08.26-20.05.08:027][928]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.08.26-20.05.08:027][928]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.26-20.05.09:154][ 17]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_Window_400x306)
+[2021.08.26-20.05.21:961][ 88]Cmd: CAMERA SNAP
+[2021.08.26-20.05.21:961][ 88]Snapped camera to the first selected object.
+[2021.08.26-20.05.30:944][ 16]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_Window_400x306)
+[2021.08.26-20.06.46:815][608]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2021.08.26-20.06.55:461][297]LogActorFactory: Actor Factory created Wall_Door_400x300
+[2021.08.26-20.07.05:617][202]LogActorFactory: Actor Factory created Wall_Door_400x300
+[2021.08.26-20.07.10:912][777]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_Window_400x306)
+[2021.08.26-20.07.21:975][730]LogActorFactory: Actor Factory created Wall_Door_400x300
+[2021.08.26-20.07.22:005][730]LogActorFactory: Actor Factory created Wall_Door_400x300
+[2021.08.26-20.07.22:032][730]EditorErrors: New page: Actor Reattachment
+[2021.08.26-20.07.25:121][ 68]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x302)
+[2021.08.26-20.07.27:245][301]Cmd: DELETE
+[2021.08.26-20.07.27:245][301]Cmd: ACTOR DELETE
+[2021.08.26-20.07.27:249][301]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.08.26-20.07.27:276][301]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2021.08.26-20.07.27:281][301]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2021.08.26-20.07.36:856][448]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x305)
+[2021.08.26-20.07.39:739][770]Cmd: EDIT COPY
+[2021.08.26-20.07.40:591][866]Cmd: EDIT PASTE
+[2021.08.26-20.08.15:267][889]Cmd: EDIT COPY
+[2021.08.26-20.08.15:955][947]Cmd: EDIT PASTE
+[2021.08.26-20.08.31:316][180]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_Window_400x308)
+[2021.08.26-20.08.42:098][ 46]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x308)
+[2021.08.26-20.08.57:076][ 89]LogActorFactory: Actor Factory created Wall_400x400
+[2021.08.26-20.09.03:407][582]LogActorFactory: Actor Factory created Wall_400x300
+[2021.08.26-20.09.05:903][789]LogActorFactory: Actor Factory created Wall_400x300
+[2021.08.26-20.09.07:213][917]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_Window_400x308)
+[2021.08.26-20.09.12:251][395]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/StarterContent/Architecture/Wall_Window_400x300.Wall_Window_400x300
+[2021.08.26-20.09.12:444][395]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.08.26-20.09.12:444][395]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.26-20.09.14:189][510]LogSlate: Window 'Wall_Window_400x300' being destroyed
+[2021.08.26-20.09.14:198][510]LogSlate: Window 'Wall_Window_400x300' being destroyed
+[2021.08.26-20.09.14:220][510]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.08.26-20.09.14:220][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.26-20.09.15:450][625]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_Window_400x308)
+[2021.08.26-20.09.37:733][562]LogActorFactory: Actor Factory created Wall_400x300
+[2021.08.26-20.09.37:749][562]EditorErrors: New page: Actor Reattachment
+[2021.08.26-20.09.46:077][355]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x305)
+[2021.08.26-20.09.47:953][547]Cmd: DELETE
+[2021.08.26-20.09.47:953][547]Cmd: ACTOR DELETE
+[2021.08.26-20.09.47:956][547]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.08.26-20.09.47:971][547]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2021.08.26-20.09.47:976][547]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2021.08.26-20.09.49:753][759]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x308)
+[2021.08.26-20.09.52:508][ 46]Cmd: EDIT COPY
+[2021.08.26-20.09.53:649][169]Cmd: EDIT PASTE
+[2021.08.26-20.10.28:131][163]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2021.08.26-20.10.28:208][163]LogSavePackage: Moving '../../../../../../Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/ThirdPersonExampleMap_Auto48EBF402A4CD17E23640FBF803C363F29.tmp' to '../../../../../../Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap'
+[2021.08.26-20.10.28:214][163]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.095
+[2021.08.26-20.10.28:214][163]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.095
+[2021.08.26-20.11.10:135][747]Cmd: TRANSACTION UNDO
+[2021.08.26-20.11.10:135][747]LogEditorTransaction: Undo Move Actors
+[2021.08.26-20.11.11:815][879]Cmd: EDIT COPY
+[2021.08.26-20.11.12:823][980]Cmd: EDIT PASTE
+[2021.08.26-20.11.20:069][649]Cmd: TRANSACTION UNDO
+[2021.08.26-20.11.20:069][649]LogEditorTransaction: Undo Move Actors
+[2021.08.26-20.11.22:067][809]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x307)
+[2021.08.26-20.11.24:874][ 84]Cmd: EDIT COPY
+[2021.08.26-20.11.25:982][193]Cmd: EDIT PASTE
+[2021.08.26-20.11.44:539][ 22]Cmd: TRANSACTION UNDO
+[2021.08.26-20.11.44:539][ 22]LogEditorTransaction: Undo Move Actors
+[2021.08.26-20.11.53:176][818]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x304)
+[2021.08.26-20.12.12:555][868]Cmd: EDIT COPY
+[2021.08.26-20.12.13:681][995]Cmd: EDIT PASTE
+[2021.08.26-20.12.39:090][386]Cmd: TRANSACTION UNDO
+[2021.08.26-20.12.39:090][386]LogEditorTransaction: Undo Move Actors
+[2021.08.26-20.12.39:554][399]Cmd: TRANSACTION UNDO
+[2021.08.26-20.12.39:554][399]LogEditorTransaction: Undo Move Actors
+[2021.08.26-20.12.43:002][681]Cmd: TRANSACTION UNDO
+[2021.08.26-20.12.43:002][681]LogEditorTransaction: Undo Move Actors
+[2021.08.26-20.12.45:116][811]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x304)
+[2021.08.26-20.12.54:602][486]Cmd: EDIT COPY
+[2021.08.26-20.12.58:402][770]Cmd: EDIT PASTE
+[2021.08.26-20.13.02:169][ 24]Cmd: TRANSACTION UNDO
+[2021.08.26-20.13.02:169][ 24]LogEditorTransaction: Undo Paste
+[2021.08.26-20.13.02:687][ 37]Cmd: TRANSACTION UNDO
+[2021.08.26-20.13.02:687][ 37]LogEditorTransaction: Undo Clicking on Actors
+[2021.08.26-20.13.03:136][ 65]Cmd: TRANSACTION UNDO
+[2021.08.26-20.13.03:136][ 65]LogEditorTransaction: Undo Clicking on Actors
+[2021.08.26-20.13.03:528][ 92]Cmd: TRANSACTION UNDO
+[2021.08.26-20.13.03:528][ 92]LogEditorTransaction: Undo Move Actors
+[2021.08.26-20.13.03:850][112]Cmd: TRANSACTION UNDO
+[2021.08.26-20.13.03:850][112]LogEditorTransaction: Undo Clicking on Actors
+[2021.08.26-20.13.04:291][141]Cmd: TRANSACTION UNDO
+[2021.08.26-20.13.04:291][141]LogEditorTransaction: Undo Clicking on Actors
+[2021.08.26-20.13.05:642][238]Cmd: TRANSACTION UNDO
+[2021.08.26-20.13.05:642][238]LogEditorTransaction: Undo Paste
+[2021.08.26-20.13.06:259][282]Cmd: TRANSACTION UNDO
+[2021.08.26-20.13.06:259][282]LogEditorTransaction: Undo Clicking on Actors
+[2021.08.26-20.13.06:694][314]Cmd: TRANSACTION UNDO
+[2021.08.26-20.13.06:694][314]LogEditorTransaction: Undo Move Actors
+[2021.08.26-20.13.07:083][341]Cmd: TRANSACTION UNDO
+[2021.08.26-20.13.07:083][341]LogEditorTransaction: Undo Clicking on Actors
+[2021.08.26-20.13.07:811][396]Cmd: TRANSACTION UNDO
+[2021.08.26-20.13.07:811][396]LogEditorTransaction: Undo Clicking on Actors
+[2021.08.26-20.13.09:762][544]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x304)
+[2021.08.26-20.13.12:084][722]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x304)
+[2021.08.26-20.13.19:874][313]Cmd: EDIT COPY
+[2021.08.26-20.13.20:919][396]Cmd: EDIT PASTE
+[2021.08.26-20.14.02:817][ 27]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x305)
+[2021.08.26-20.14.06:513][451]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x313)
+[2021.08.26-20.14.07:708][586]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_Window_400x313)
+[2021.08.26-20.14.09:960][779]LogActorFactory: Actor Factory created Wall_400x300
+[2021.08.26-20.14.09:975][779]EditorErrors: New page: Actor Reattachment
+[2021.08.26-20.14.14:915][312]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x312)
+[2021.08.26-20.14.17:635][625]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x305)
+[2021.08.26-20.14.18:175][680]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x305)
+[2021.08.26-20.14.22:085][ 31]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x312)
+[2021.08.26-20.14.23:294][167]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x305)
+[2021.08.26-20.14.27:987][570]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x312)
+[2021.08.26-20.14.29:107][695]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x305)
+[2021.08.26-20.14.29:825][774]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x305)
+[2021.08.26-20.14.31:265][905]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x305)
+[2021.08.26-20.14.32:312][ 24]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x312)
+[2021.08.26-20.14.32:801][ 76]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_Window_400x312)
+[2021.08.26-20.14.38:766][618]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x312)
+[2021.08.26-20.14.39:410][690]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x305)
+[2021.08.26-20.14.40:101][765]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x305)
+[2021.08.26-20.14.45:781][251]LogActorFactory: Actor Factory created Wall_Window_400x300
+[2021.08.26-20.14.45:797][251]EditorErrors: New page: Actor Reattachment
+[2021.08.26-20.14.51:934][932]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x300)
+[2021.08.26-20.14.56:316][416]LogEditorViewport: Clicking on Actor (LMB): WindowRain_C (WindowRain)
+[2021.08.26-20.14.58:837][694]Cmd: EDIT COPY
+[2021.08.26-20.14.59:746][793]Cmd: EDIT PASTE
+[2021.08.26-20.15.07:348][588]Cmd: TRANSACTION UNDO
+[2021.08.26-20.15.07:348][588]LogEditorTransaction: Undo Move Actors
+[2021.08.26-20.15.08:703][694]Cmd: TRANSACTION UNDO
+[2021.08.26-20.15.08:703][694]LogEditorTransaction: Undo Paste
+[2021.08.26-20.15.15:762][456]Cmd: EDIT COPY
+[2021.08.26-20.15.17:268][629]Cmd: EDIT PASTE
+[2021.08.26-20.15.44:032][187]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2021.08.26-20.15.46:792][388]Cmd: EDIT COPY
+[2021.08.26-20.15.47:531][444]Cmd: EDIT PASTE
+[2021.08.26-20.16.46:979][ 17]Cmd: EDIT COPY
+[2021.08.26-20.16.47:774][ 99]Cmd: EDIT PASTE
+[2021.08.26-20.17.30:106][473]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x308)
+[2021.08.26-20.17.45:539][219]Cmd: MODE GRID=0
+[2021.08.26-20.18.00:877][951]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.08.26-20.18.11:997][764]MapCheck: New page: Map Check
+[2021.08.26-20.18.12:006][764]LightingResults: New page: Lighting Build - 26 Aug 2021, 22:18:12
+[2021.08.26-20.18.12:022][764]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.08.26-20.18.12:025][764]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.08.26-20.18.12:025][764]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.08.26-20.18.12:027][764]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.08.26-20.18.12:027][764]LogSwarmInterface: [TryOpenConnection] Local Process ID is 13828
+[2021.08.26-20.18.17:336][764]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2021.08.26-20.18.17:336][764]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.08.26-20.18.17:336][764]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.08.26-20.18.17:336][764]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.08.26-20.18.17:336][764]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.08.26-20.18.17:336][764]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.08.26-20.18.17:510][764]LogEditorBuildUtils: Build time 0:05
+[2021.08.26-20.18.17:591][765]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2021.08.26-20.18.19:018][771]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor_400x405)
+[2021.08.26-20.18.20:410][835]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x411)
+[2021.08.26-20.18.21:673][891]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2021.08.26-20.18.26:130][ 95]Job is a success!
+[2021.08.26-20.18.26:340][ 96]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.017s
+[2021.08.26-20.18.26:340][ 96]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2021.08.26-20.18.26:340][ 96]LogVolumetricLightmapImport:      BrickData (all levels) 0.2Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2021.08.26-20.18.26:340][ 96]LogVolumetricLightmapImport:      Bricks at depth
+[2021.08.26-20.18.26:340][ 96]LogVolumetricLightmapImport:          0: 2.1% covering 100.0% of volume
+[2021.08.26-20.18.26:340][ 96]LogVolumetricLightmapImport:          1: 8.5% covering 6.2% of volume
+[2021.08.26-20.18.26:340][ 96]LogVolumetricLightmapImport:          2: 89.4% covering 1.0% of volume
+[2021.08.26-20.18.26:340][ 96]LogVolumetricLightmapImport:      Bricks in each level
+[2021.08.26-20.18.26:340][ 96]LogVolumetricLightmapImport:          ThirdPersonExampleMap 			 47 bricks 	 100.0% (Persistent Level)
+[2021.08.26-20.18.27:139][ 96]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2021.08.26-20.18.27:139][ 96]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2021.08.26-20.18.27:139][ 96]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2021.08.26-20.18.27:139][ 96]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2021.08.26-20.18.27:139][ 96]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2021.08.26-20.18.27:139][ 96]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 1024X512)
+[2021.08.26-20.18.27:139][ 96]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 1024X512)
+[2021.08.26-20.18.27:139][ 96]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
+[2021.08.26-20.18.27:139][ 96]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024)
+[2021.08.26-20.18.27:139][ 96]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 128X64)
+[2021.08.26-20.18.27:139][ 96]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 128X128)
+[2021.08.26-20.18.27:139][ 96]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 128X128)
+[2021.08.26-20.18.27:139][ 96]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 64X32)
+[2021.08.26-20.18.27:139][ 96]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 64X64)
+[2021.08.26-20.18.27:139][ 96]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 64X64)
+[2021.08.26-20.18.27:338][ 96]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 32X32)
+[2021.08.26-20.18.27:480][ 96]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (BGRA8, 1024X1024)
+[2021.08.26-20.18.27:480][ 96]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (BGRA8, 1024X1024)
+[2021.08.26-20.18.27:480][ 96]LogStaticLightingSystem: ThirdPersonExampleMap_BuiltData storing lightmap data for 47 meshes in 5 LightmapResourceClusters (9.4 Meshes per cluster).
+[2021.08.26-20.18.27:500][ 96]Lightmass on DESKTOP-ADOBA4O: 8.44 sec total, 197 ms importing, 6 ms setup, 1.37 sec photons, 6.74 sec processing, 0 ms extra exporting [47/47 mappings]. Threads: 1:14 min total, 32.7 sec processing.
+[2021.08.26-20.18.27:503][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2021.08.26-20.18.27:528][ 96]LogStaticLightingSystem: Illumination: 15.4 sec (712 ms encoding lightmaps, 313 ms encoding shadowmaps)
+[2021.08.26-20.18.27:528][ 96]LogStaticLightingSystem: Lightmap texture memory:  8.1 MB (8.1 MB streaming, 0.0 MB non-streaming), 10 textures
+[2021.08.26-20.18.27:528][ 96]LogStaticLightingSystem: Shadowmap texture memory: 10.7 MB (10.7 MB streaming, 0.0 MB non-streaming), 3 textures
+[2021.08.26-20.18.28:348][ 96]DumpUnbuiltLightIteractions
+[2021.08.26-20.18.28:348][ 96]Lights with unbuilt interactions: 0
+[2021.08.26-20.18.28:348][ 96]
+[2021.08.26-20.18.28:348][ 96]Primitives with unbuilt interactions: 0
+[2021.08.26-20.18.28:461][ 97]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.08.26-20.18.28:462][ 97]MapCheck: New page: ThirdPersonExampleMap - 26 Aug 2021, 22:18:28
+[2021.08.26-20.18.28:462][ 97]MapCheck: Warning: Wall_Window_400x309 Wall_Window_400x309 is in the same location as Wall_Window_400x310 
+[2021.08.26-20.18.28:463][ 97]MapCheck: Warning: Wall_Window_400x310 Wall_Window_400x310 is in the same location as Wall_Window_400x309 
+[2021.08.26-20.18.28:463][ 97]MapCheck: Map check complete: 0 Error(s), 2 Warning(s), took 1.02ms to complete.
+[2021.08.26-20.18.43:962][740]LogEditorViewport: Clicking on Actor (LMB): WindowRain_C (WindowRain)
+[2021.08.26-20.18.45:836][960]Cmd: EDIT COPY
+[2021.08.26-20.18.48:140][234]Cmd: EDIT PASTE
+[2021.08.26-20.19.10:696][802]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x311)
+[2021.08.26-20.19.32:937][283]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x308)
+[2021.08.26-20.19.44:715][653]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.08.26-20.19.49:602][149]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2021.08.26-20.19.51:194][327]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2021.08.26-20.19.52:969][527]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2021.08.26-20.19.56:920][963]LogEditorViewport: Clicking on Actor (LMB): WindowRain_C (WindowRain2)
+[2021.08.26-20.20.02:260][578]Cmd: EDIT COPY
+[2021.08.26-20.20.03:833][762]Cmd: EDIT PASTE
+[2021.08.26-20.21.01:767][232]LogHttp: Warning: 0000022060DC8100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B10923BA2-46FA-DF47-98FD-95B6BD655AE3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=d8206ea54dd2d54a4bee27af4249cc9d%7C8c5dc0961207406196b05393ade56768%7Cdf897a3a-221f-4b99-92ce-7f6749e72b1f&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.08.26-20.21.01:767][232]LogHttp: Warning: 0000022060DC8100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2021.08.26-20.21.01:767][232]LogHttp: Warning: 0000022060DC8100: libcurl info message cache 0 (Connection 20 seems to be dead!)
+[2021.08.26-20.21.01:767][232]LogHttp: Warning: 0000022060DC8100: libcurl info message cache 1 (Closing connection 20)
+[2021.08.26-20.21.01:767][232]LogHttp: Warning: 0000022060DC8100: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2021.08.26-20.21.01:767][232]LogHttp: Warning: 0000022060DC8100: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2021.08.26-20.21.01:767][232]LogHttp: Warning: 0000022060DC8100: libcurl info message cache 4 (Closing connection 21)
+[2021.08.26-20.21.01:767][232]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B10923BA2-46FA-DF47-98FD-95B6BD655AE3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=d8206ea54dd2d54a4bee27af4249cc9d%7C8c5dc0961207406196b05393ade56768%7Cdf897a3a-221f-4b99-92ce-7f6749e72b1f&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.08.26-20.21.18:338][ 68]Cmd: EDIT COPY
+[2021.08.26-20.21.19:948][237]Cmd: EDIT PASTE
+[2021.08.26-20.21.31:020][442]LogEditorViewport: Clicking on Actor (LMB): WindowRain_C (WindowRain4)
+[2021.08.26-20.21.38:689][327]Cmd: TRANSACTION UNDO
+[2021.08.26-20.21.38:689][327]LogEditorTransaction: Undo Move Actors
+[2021.08.26-20.22.00:613][793]LogEditorViewport: Clicking on Actor (LMB): WindowRain_C (WindowRain5)
+[2021.08.26-20.22.02:951][ 56]Cmd: DELETE
+[2021.08.26-20.22.02:951][ 56]Cmd: ACTOR DELETE
+[2021.08.26-20.22.02:955][ 56]LogEditorActor: Deleted Actor: WindowRain_C
+[2021.08.26-20.22.02:981][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2021.08.26-20.22.02:988][ 56]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2021.08.26-20.22.05:577][366]LogEditorViewport: Clicking on Actor (LMB): WindowRain_C (WindowRain4)
+[2021.08.26-20.22.07:152][546]Cmd: EDIT COPY
+[2021.08.26-20.22.08:255][673]Cmd: EDIT PASTE
+[2021.08.26-20.22.35:413][580]Cmd: EDIT COPY
+[2021.08.26-20.22.36:395][681]Cmd: EDIT PASTE
+[2021.08.26-20.22.54:172][546]Cmd: EDIT COPY
+[2021.08.26-20.22.54:957][638]Cmd: EDIT PASTE
+[2021.08.26-20.23.39:808][658]Cmd: EDIT COPY
+[2021.08.26-20.23.41:375][843]Cmd: EDIT PASTE
+[2021.08.26-20.23.53:011][182]Cmd: EDIT COPY
+[2021.08.26-20.23.53:742][268]Cmd: EDIT PASTE
+[2021.08.26-20.24.31:254][454]LogEditorViewport: Clicking on Actor (LMB): WindowRain_C (WindowRain2)
+[2021.08.26-20.24.38:694][322]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x307)
+[2021.08.26-20.25.05:622][436]LogEditorViewport: Clicking on Actor (LMB): WindowRain_C (WindowRain2)
+[2021.08.26-20.25.08:907][816]Cmd: EDIT COPY
+[2021.08.26-20.25.09:671][905]Cmd: EDIT PASTE
+[2021.08.26-20.26.00:610][760]Cmd: EDIT COPY
+[2021.08.26-20.26.01:519][866]Cmd: EDIT PASTE
+[2021.08.26-20.26.12:588][136]Cmd: EDIT COPY
+[2021.08.26-20.26.13:265][214]Cmd: EDIT PASTE
+[2021.08.26-20.26.28:737][750]MapCheck: New page: Map Check
+[2021.08.26-20.26.28:751][750]LightingResults: New page: Lighting Build - 26 Aug 2021, 22:26:28
+[2021.08.26-20.26.28:766][750]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.08.26-20.26.28:770][750]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.08.26-20.26.28:770][750]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.08.26-20.26.28:771][750]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.08.26-20.26.28:771][750]LogSwarmInterface: [TryOpenConnection] Local Process ID is 13828
+[2021.08.26-20.26.37:199][750]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2021.08.26-20.26.37:199][750]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.08.26-20.26.37:199][750]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.08.26-20.26.37:199][750]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.08.26-20.26.37:199][750]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.08.26-20.26.37:199][750]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.08.26-20.26.37:309][750]LogEditorBuildUtils: Build time 0:08
+[2021.08.26-20.26.37:391][751]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2021.08.26-20.26.45:136][149]Job is a success!
+[2021.08.26-20.26.45:326][150]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.015s
+[2021.08.26-20.26.45:326][150]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2021.08.26-20.26.45:326][150]LogVolumetricLightmapImport:      BrickData (all levels) 0.2Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2021.08.26-20.26.45:326][150]LogVolumetricLightmapImport:      Bricks at depth
+[2021.08.26-20.26.45:326][150]LogVolumetricLightmapImport:          0: 2.1% covering 100.0% of volume
+[2021.08.26-20.26.45:326][150]LogVolumetricLightmapImport:          1: 8.3% covering 6.2% of volume
+[2021.08.26-20.26.45:326][150]LogVolumetricLightmapImport:          2: 89.6% covering 1.0% of volume
+[2021.08.26-20.26.45:326][150]LogVolumetricLightmapImport:      Bricks in each level
+[2021.08.26-20.26.45:326][150]LogVolumetricLightmapImport:          ThirdPersonExampleMap 			 48 bricks 	 100.0% (Persistent Level)
+[2021.08.26-20.26.46:200][150]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2021.08.26-20.26.46:200][150]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2021.08.26-20.26.46:200][150]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2021.08.26-20.26.46:200][150]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512)
+[2021.08.26-20.26.46:200][150]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2021.08.26-20.26.46:200][150]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2021.08.26-20.26.46:200][150]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 1024X512)
+[2021.08.26-20.26.46:200][150]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2021.08.26-20.26.46:200][150]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2021.08.26-20.26.46:200][150]LogTexture: Display: Building textures: SkyOcclusion1_4 (AutoDXT, 128X64)
+[2021.08.26-20.26.46:200][150]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 128X128)
+[2021.08.26-20.26.46:200][150]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 128X128)
+[2021.08.26-20.26.46:200][150]LogTexture: Display: Building textures: SkyOcclusion1_5 (AutoDXT, 64X32)
+[2021.08.26-20.26.46:200][150]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 64X64)
+[2021.08.26-20.26.46:200][150]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 64X64)
+[2021.08.26-20.26.46:398][150]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 32X32)
+[2021.08.26-20.26.46:457][150]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (BGRA8, 1024X1024)
+[2021.08.26-20.26.46:457][150]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (BGRA8, 1024X1024)
+[2021.08.26-20.26.46:457][150]LogStaticLightingSystem: ThirdPersonExampleMap_BuiltData storing lightmap data for 47 meshes in 5 LightmapResourceClusters (9.4 Meshes per cluster).
+[2021.08.26-20.26.46:474][150]Lightmass on DESKTOP-ADOBA4O: 8.39 sec total, 148 ms importing, 33 ms setup, 1.30 sec photons, 6.85 sec processing, 0 ms extra exporting [47/47 mappings]. Threads: 1:15 min total, 35.3 sec processing.
+[2021.08.26-20.26.46:475][150]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2021.08.26-20.26.46:498][150]LogStaticLightingSystem: Illumination: 17.7 sec (730 ms encoding lightmaps, 227 ms encoding shadowmaps)
+[2021.08.26-20.26.46:498][150]LogStaticLightingSystem: Lightmap texture memory:  8.1 MB (8.1 MB streaming, 0.0 MB non-streaming), 10 textures
+[2021.08.26-20.26.46:498][150]LogStaticLightingSystem: Shadowmap texture memory: 10.7 MB (10.7 MB streaming, 0.0 MB non-streaming), 3 textures
+[2021.08.26-20.26.47:211][150]DumpUnbuiltLightIteractions
+[2021.08.26-20.26.47:211][150]Lights with unbuilt interactions: 0
+[2021.08.26-20.26.47:211][150]
+[2021.08.26-20.26.47:211][150]Primitives with unbuilt interactions: 0
+[2021.08.26-20.26.47:336][151]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.08.26-20.26.47:336][151]MapCheck: New page: ThirdPersonExampleMap - 26 Aug 2021, 22:26:47
+[2021.08.26-20.26.47:337][151]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.069ms to complete.
+[2021.08.26-20.26.55:619][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2021.08.26-20.26.55:709][ 44]LogSavePackage: Moving '../../../../../../Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/ThirdPersonExampleMap_Auto50EBE31404C2FC4061E078EB89D691E93.tmp' to '../../../../../../Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap'
+[2021.08.26-20.26.55:714][ 44]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.105
+[2021.08.26-20.26.55:714][ 44]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.105
+[2021.08.26-20.27.08:646][496]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x305)
+[2021.08.26-20.27.38:771][857]LogTemp: Repeating last play command: Selected Viewport
+[2021.08.26-20.27.38:793][857]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.08.26-20.27.38:794][857]LogPlayLevel: [PlayLevel] Compiling ThirdPersonExampleMap before play...
+[2021.08.26-20.27.38:824][857]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2021.08.26-20.27.38:829][857]LogPlayLevel: PlayLevel: Blueprint regeneration took 35 ms (1 blueprints)
+[2021.08.26-20.27.38:829][857]PIE: New page: PIE session: ThirdPersonExampleMap (26 Aug 2021, 22:27:38)
+[2021.08.26-20.27.38:830][857]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.08.26-20.27.38:850][857]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020419s)
+[2021.08.26-20.27.38:851][857]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.08.26-20.27.38:851][857]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021FF2732E00), frame # 374857
+[2021.08.26-20.27.38:851][857]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021FC864EE80), frame # 374857
+[2021.08.26-20.27.38:851][857]LogPlayLevel: PIE: World Init took: (0.001550s)
+[2021.08.26-20.27.38:852][857]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022154s)
+[2021.08.26-20.27.38:864][857]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2021.08.26-20.27.38:866][857]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.26-20.27.38:866][857]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.26-20.27.38:866][857]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.26-20.27.38:866][857]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.26-20.27.38:866][857]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.26-20.27.38:866][857]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.26-20.27.38:866][857]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.26-20.27.38:866][857]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.26-20.27.38:867][857]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.26-20.27.38:867][857]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.26-20.27.38:872][857]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.26-20.27.38:872][857]LogAudioMixer: Display: 1: FrontRight
+[2021.08.26-20.27.38:872][857]LogAudioMixer: Display: 2: FrontCenter
+[2021.08.26-20.27.38:872][857]LogAudioMixer: Display: 3: LowFrequency
+[2021.08.26-20.27.38:872][857]LogAudioMixer: Display: 4: BackLeft
+[2021.08.26-20.27.38:872][857]LogAudioMixer: Display: 5: BackRight
+[2021.08.26-20.27.38:872][857]LogAudioMixer: Display: 6: SideLeft
+[2021.08.26-20.27.38:872][857]LogAudioMixer: Display: 7: SideRight
+[2021.08.26-20.27.38:903][857]LogAudioMixer: Display: Using Audio Device Speakers (7.1 Surround Sound)
+[2021.08.26-20.27.38:903][857]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.26-20.27.38:903][857]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.26-20.27.38:903][857]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.26-20.27.38:904][857]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.26-20.27.38:916][857]LogInit: FAudioDevice initialized.
+[2021.08.26-20.27.38:924][857]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.08.26-20.27.38:929][857]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.08.26-21.27.38
+[2021.08.26-20.27.38:930][857]LogWorld: Bringing up level for play took: 0.004906
+[2021.08.26-20.27.38:930][857]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.08.26-20.27.38:932][857]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.26-20.27.38:932][857]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.26-20.27.38:932][857]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.08.26-20.27.38:933][857]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.08.26-20.27.38:934][857]PIE: Server logged in
+[2021.08.26-20.27.38:934][857]PIE: Play in editor total start time 0.142 seconds.
+[2021.08.26-20.28.26:089][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.26-20.28.26:089][198]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.08.26-20.28.26:089][198]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.08.26-20.28.26:090][198]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.26-20.28.26:097][198]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.08.26-20.28.26:100][198]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.08.26-20.28.26:111][198]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.08.26-20.28.26:131][198]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021FC864EE80), frame # 380198
+[2021.08.26-20.28.26:131][198]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021FF2732E00), frame # 380198
+[2021.08.26-20.28.26:132][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2021.08.26-20.28.26:174][199]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.08.26-20.28.52:792][238]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2021.08.26-20.28.54:774][437]Cmd: EDIT COPY
+[2021.08.26-20.28.55:535][515]Cmd: EDIT PASTE
+[2021.08.26-20.29.37:277][708]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x301)
+[2021.08.26-20.29.38:956][865]Cmd: EDIT COPY
+[2021.08.26-20.29.39:623][928]Cmd: EDIT PASTE
+[2021.08.26-20.30.09:251][846]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x301)
+[2021.08.26-20.30.12:339][151]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x302)
+[2021.08.26-20.30.15:080][395]Cmd: EDIT COPY
+[2021.08.26-20.30.15:897][469]Cmd: EDIT PASTE
+[2021.08.26-20.30.51:773][721]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x310)
+[2021.08.26-20.31.10:129][697]Cmd: TRANSACTION UNDO
+[2021.08.26-20.31.10:129][697]LogEditorTransaction: Undo Scale Actors
+[2021.08.26-20.31.10:497][707]Cmd: TRANSACTION UNDO
+[2021.08.26-20.31.10:497][707]LogEditorTransaction: Undo Move Actors
+[2021.08.26-20.31.10:914][740]Cmd: TRANSACTION UNDO
+[2021.08.26-20.31.10:914][740]LogEditorTransaction: Undo Move Actors
+[2021.08.26-20.31.11:344][788]Cmd: TRANSACTION UNDO
+[2021.08.26-20.31.11:344][788]LogEditorTransaction: Undo Move Actors
+[2021.08.26-20.31.13:395][ 12]Cmd: TRANSACTION UNDO
+[2021.08.26-20.31.13:395][ 12]LogEditorTransaction: Undo Paste
+[2021.08.26-20.31.14:226][ 98]Cmd: TRANSACTION UNDO
+[2021.08.26-20.31.14:226][ 98]LogEditorTransaction: Undo Clicking on Actors
+[2021.08.26-20.31.23:122][ 30]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x309)
+[2021.08.26-20.31.25:205][242]Cmd: EDIT COPY
+[2021.08.26-20.31.29:365][649]Cmd: EDIT PASTE
+[2021.08.26-20.31.47:763][372]Cmd: TRANSACTION UNDO
+[2021.08.26-20.31.47:763][372]LogEditorTransaction: Undo Move Actors
+[2021.08.26-20.32.03:082][989]Cmd: EDIT COPY
+[2021.08.26-20.32.03:675][ 56]Cmd: EDIT PASTE
+[2021.08.26-20.32.11:663][883]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x406)
+[2021.08.26-20.32.12:964][ 19]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x311)
+[2021.08.26-20.32.16:529][407]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x406)
+[2021.08.26-20.32.19:873][770]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x311)
+[2021.08.26-20.32.20:957][882]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x311)
+[2021.08.26-20.32.25:487][261]LogActorFactory: Actor Factory created Wall_Door_400x300
+[2021.08.26-20.32.25:502][261]EditorErrors: New page: Actor Reattachment
+[2021.08.26-20.32.35:211][330]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x306)
+[2021.08.26-20.32.38:043][643]Cmd: EDIT COPY
+[2021.08.26-20.32.38:718][717]Cmd: EDIT PASTE
+[2021.08.26-20.33.03:208][351]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x312)
+[2021.08.26-20.33.26:607][988]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x406)
+[2021.08.26-20.33.39:915][315]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x308)
+[2021.08.26-20.33.47:716][ 46]Cmd: EDIT COPY
+[2021.08.26-20.33.48:600][128]Cmd: EDIT PASTE
+[2021.08.26-20.34.05:171][538]LogEditorViewport: Clicking on Actor (LMB): BookJumscareBP_C (BookJumscareBP)
+[2021.08.26-20.34.08:312][821]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x401)
+[2021.08.26-20.34.09:110][901]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x316)
+[2021.08.26-20.34.38:571][785]Cmd: EDIT COPY
+[2021.08.26-20.34.39:981][927]Cmd: EDIT PASTE
+[2021.08.26-20.34.57:040][527]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x317)
+[2021.08.26-20.35.14:971][442]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x401)
+[2021.08.26-20.35.29:569][943]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x306)
+[2021.08.26-20.35.44:754][617]Cmd: EDIT COPY
+[2021.08.26-20.35.45:394][690]Cmd: EDIT PASTE
+[2021.08.26-20.36.34:496][839]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x308)
+[2021.08.26-20.36.37:300][135]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x318)
+[2021.08.26-20.36.39:309][344]Cmd: EDIT COPY
+[2021.08.26-20.36.40:396][458]Cmd: EDIT PASTE
+[2021.08.26-20.36.47:047][ 89]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_Window_400x319)
+[2021.08.26-20.36.50:489][353]LogActorFactory: Actor Factory created Wall_400x300
+[2021.08.26-20.36.50:506][353]EditorErrors: New page: Actor Reattachment
+[2021.08.26-20.37.02:296][531]Cmd: EDIT COPY
+[2021.08.26-20.37.02:990][606]Cmd: EDIT PASTE
+[2021.08.26-20.37.29:162][ 52]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x319)
+[2021.08.26-20.37.33:954][502]Cmd: EDIT COPY
+[2021.08.26-20.37.34:604][565]Cmd: EDIT PASTE
+[2021.08.26-20.38.07:897][496]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x310)
+[2021.08.26-20.38.12:129][832]Cmd: TRANSACTION UNDO
+[2021.08.26-20.38.12:129][832]LogEditorTransaction: Undo Move Actors
+[2021.08.26-20.38.14:673][ 24]Cmd: EDIT COPY
+[2021.08.26-20.38.15:347][ 80]Cmd: EDIT PASTE
+[2021.08.26-20.38.32:036][466]LogEditorViewport: Clicking on Actor (LMB): BookJumscareBP_C (BookJumscareBP2)
+[2021.08.26-20.38.35:214][756]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x313)
+[2021.08.26-20.39.12:989][284]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x323)
+[2021.08.26-20.39.15:298][506]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x321)
+[2021.08.26-20.39.17:210][687]Cmd: EDIT COPY
+[2021.08.26-20.39.18:619][823]Cmd: EDIT PASTE
+[2021.08.26-20.39.35:697][523]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_Window_400x324)
+[2021.08.26-20.39.39:886][857]LogActorFactory: Actor Factory created Wall_400x300
+[2021.08.26-20.39.39:901][857]EditorErrors: New page: Actor Reattachment
+[2021.08.26-20.39.47:218][569]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x323)
+[2021.08.26-20.39.49:571][768]Cmd: EDIT COPY
+[2021.08.26-20.39.50:287][830]Cmd: EDIT PASTE
+[2021.08.26-20.40.27:037][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2021.08.26-20.40.27:135][ 83]LogSavePackage: Moving '../../../../../../Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/ThirdPersonExampleMap_Auto65238485145F64D9AF66318A1F5EB2BAC.tmp' to '../../../../../../Users/johnn/OneDrive/Documents/GitHub/PlacementProject/NightmareEscape/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto6.umap'
+[2021.08.26-20.40.27:140][ 83]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.118
+[2021.08.26-20.40.27:140][ 83]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.118
+[2021.08.26-20.40.49:836][271]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x313)
+[2021.08.26-20.41.04:969][840]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x324)
+[2021.08.26-20.41.29:262][137]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x325)
+[2021.08.26-20.41.45:021][713]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x313)
+[2021.08.26-20.41.45:941][776]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x313)
+[2021.08.26-20.41.47:364][862]LogActorFactory: Actor Factory created Wall_400x300
+[2021.08.26-20.41.47:379][862]EditorErrors: New page: Actor Reattachment
+[2021.08.26-20.41.49:401][973]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x313)
+[2021.08.26-20.41.53:360][224]LogActorFactory: Actor Factory created Wall_Door_400x300
+[2021.08.26-20.41.53:375][224]EditorErrors: New page: Actor Reattachment
+[2021.08.26-20.41.59:104][667]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x302)
+[2021.08.26-20.42.04:125][ 61]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x313)
+[2021.08.26-20.42.06:428][237]Cmd: EDIT COPY
+[2021.08.26-20.42.07:698][336]Cmd: EDIT PASTE
+[2021.08.26-20.42.16:978][989]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x314)
+[2021.08.26-20.42.22:897][393]LogActorFactory: Actor Factory created Wall_400x300
+[2021.08.26-20.42.22:912][393]EditorErrors: New page: Actor Reattachment
+[2021.08.26-20.42.48:737][431]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x410)
+[2021.08.26-20.42.51:829][695]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x325)
+[2021.08.26-20.42.57:158][212]Cmd: EDIT COPY
+[2021.08.26-20.42.58:917][388]Cmd: EDIT PASTE
+[2021.08.26-20.43.31:597][307]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x314)
+[2021.08.26-20.43.46:108][474]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x313)
+[2021.08.26-20.43.50:951][904]Cmd: EDIT COPY
+[2021.08.26-20.43.51:897][990]Cmd: EDIT PASTE
+[2021.08.26-20.44.29:260][461]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x320)
+[2021.08.26-20.45.05:380][ 10]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Window_400x320)
+[2021.08.26-20.45.06:497][116]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x316)
+[2021.08.26-20.45.25:206][708]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x315)
+[2021.08.26-20.45.29:440][ 98]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_400x316)
+[2021.08.26-20.45.31:737][315]Cmd: EDIT COPY
+[2021.08.26-20.45.32:517][391]Cmd: EDIT PASTE
+[2021.08.26-20.46.10:184][389]LogEditorViewport: Clicking on Actor (LMB): BookJumscareBP_C (BookJumscareBP)
+[2021.08.26-20.46.21:876][181]LogEditorViewport: Clicking on Actor (LMB): BookJumscareBP_C (BookJumscareBP)
+[2021.08.26-20.46.22:065][190]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (BookCase)
+[2021.08.26-20.46.25:420][424]LogEditorViewport: Clicking on Component (LMB): BoxComponent (Box)
+[2021.08.26-20.46.49:982][394]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2021.08.26-20.47.39:807][779]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x411)
+[2021.08.26-20.48.13:588][962]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x410)
+[2021.08.26-20.48.40:135][ 21]MapCheck: New page: Map Check
+[2021.08.26-20.48.40:148][ 21]LightingResults: New page: Lighting Build - 26 Aug 2021, 22:48:40
+[2021.08.26-20.48.40:170][ 21]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.08.26-20.48.40:174][ 21]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.08.26-20.48.40:174][ 21]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.08.26-20.48.40:175][ 21]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.08.26-20.48.40:175][ 21]LogSwarmInterface: [TryOpenConnection] Local Process ID is 13828
+[2021.08.26-20.48.44:703][ 21]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2021.08.26-20.48.44:703][ 21]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.08.26-20.48.44:703][ 21]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.08.26-20.48.44:703][ 21]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.08.26-20.48.44:703][ 21]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.08.26-20.48.44:703][ 21]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.08.26-20.48.44:812][ 21]LogEditorBuildUtils: Build time 0:04
+[2021.08.26-20.48.44:820][ 21]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Floor_Walnut_Worn, compiling. 
+[2021.08.26-20.48.44:823][ 21]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Floor_Walnut_Worn, compiling. 
+[2021.08.26-20.48.45:702][ 21]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2021.08.26-20.48.45:702][ 21]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2021.08.26-20.48.45:702][ 21]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2021.08.26-20.48.45:702][ 21]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2021.08.26-20.48.45:843][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2021.08.26-20.48.55:453][527]Job is a success!
+[2021.08.26-20.48.55:654][528]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.017s
+[2021.08.26-20.48.55:654][528]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2021.08.26-20.48.55:655][528]LogVolumetricLightmapImport:      BrickData (all levels) 0.2Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2021.08.26-20.48.55:655][528]LogVolumetricLightmapImport:      Bricks at depth
+[2021.08.26-20.48.55:655][528]LogVolumetricLightmapImport:          0: 2.1% covering 100.0% of volume
+[2021.08.26-20.48.55:655][528]LogVolumetricLightmapImport:          1: 8.3% covering 6.2% of volume
+[2021.08.26-20.48.55:655][528]LogVolumetricLightmapImport:          2: 89.6% covering 1.0% of volume
+[2021.08.26-20.48.55:655][528]LogVolumetricLightmapImport:      Bricks in each level
+[2021.08.26-20.48.55:655][528]LogVolumetricLightmapImport:          ThirdPersonExampleMap 			 48 bricks 	 100.0% (Persistent Level)
+[2021.08.26-20.48.56:747][528]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2021.08.26-20.48.56:747][528]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2021.08.26-20.48.56:747][528]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 1024X512)
+[2021.08.26-20.48.56:747][528]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2021.08.26-20.48.56:748][528]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2021.08.26-20.48.56:748][528]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 1024X512)
+[2021.08.26-20.48.56:748][528]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2021.08.26-20.48.56:748][528]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
+[2021.08.26-20.48.56:748][528]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024)
+[2021.08.26-20.48.56:748][528]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 1024X512)
+[2021.08.26-20.48.56:748][528]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024)
+[2021.08.26-20.48.56:748][528]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024)
+[2021.08.26-20.48.56:748][528]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 128X64)
+[2021.08.26-20.48.56:748][528]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 128X128)
+[2021.08.26-20.48.56:748][528]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 128X128)
+[2021.08.26-20.48.56:748][528]LogTexture: Display: Building textures: SkyOcclusion0_6 (AutoDXT, 64X32)
+[2021.08.26-20.48.56:748][528]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 64X64)
+[2021.08.26-20.48.56:748][528]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 64X64)
+[2021.08.26-20.48.56:948][528]LogTexture: Display: Building textures: ShadowMapTexture2D_10 (BGRA8, 64X64)
+[2021.08.26-20.48.56:948][528]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (G8, 32X32)
+[2021.08.26-20.48.57:061][528]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (BGRA8, 1024X1024)
+[2021.08.26-20.48.57:061][528]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (BGRA8, 1024X1024)
+[2021.08.26-20.48.57:061][528]LogStaticLightingSystem: ThirdPersonExampleMap_BuiltData storing lightmap data for 70 meshes in 6 LightmapResourceClusters (11.7 Meshes per cluster).
+[2021.08.26-20.48.57:079][528]Lightmass on DESKTOP-ADOBA4O: 10.4 sec total, 215 ms importing, 33 ms setup, 1.68 sec photons, 8.43 sec processing, 0 ms extra exporting [70/70 mappings]. Threads: 1:32 min total, 41.7 sec processing.
+[2021.08.26-20.48.57:081][528]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2021.08.26-20.48.57:110][528]LogStaticLightingSystem: Illumination: 16.9 sec (950 ms encoding lightmaps, 272 ms encoding shadowmaps)
+[2021.08.26-20.48.57:110][528]LogStaticLightingSystem: Lightmap texture memory:  10.7 MB (10.7 MB streaming, 0.0 MB non-streaming), 12 textures
+[2021.08.26-20.48.57:111][528]LogStaticLightingSystem: Shadowmap texture memory: 10.7 MB (10.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2021.08.26-20.48.57:717][528]DumpUnbuiltLightIteractions
+[2021.08.26-20.48.57:717][528]Lights with unbuilt interactions: 0
+[2021.08.26-20.48.57:717][528]
+[2021.08.26-20.48.57:717][528]Primitives with unbuilt interactions: 0
+[2021.08.26-20.48.57:856][529]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.08.26-20.48.57:856][529]MapCheck: New page: ThirdPersonExampleMap - 26 Aug 2021, 22:48:57
+[2021.08.26-20.48.57:857][529]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.132ms to complete.
+[2021.08.26-20.48.59:224][663]LogTemp: Repeating last play command: Selected Viewport
+[2021.08.26-20.48.59:247][663]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.08.26-20.48.59:247][663]LogPlayLevel: [PlayLevel] Compiling ThirdPersonExampleMap before play...
+[2021.08.26-20.48.59:273][663]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2021.08.26-20.48.59:277][663]LogPlayLevel: PlayLevel: Blueprint regeneration took 30 ms (1 blueprints)
+[2021.08.26-20.48.59:278][663]PIE: New page: PIE session: ThirdPersonExampleMap (26 Aug 2021, 22:48:59)
+[2021.08.26-20.48.59:306][663]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.08.26-20.48.59:327][663]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020704s)
+[2021.08.26-20.48.59:328][663]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.08.26-20.48.59:328][663]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021F89484200), frame # 493663
+[2021.08.26-20.48.59:328][663]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021FFC45E840), frame # 493663
+[2021.08.26-20.48.59:328][663]LogPlayLevel: PIE: World Init took: (0.001410s)
+[2021.08.26-20.48.59:328][663]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.022310s)
+[2021.08.26-20.48.59:340][663]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2021.08.26-20.48.59:341][663]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.08.26-20.48.59:341][663]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.08.26-20.48.59:341][663]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.08.26-20.48.59:341][663]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.08.26-20.48.59:341][663]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.08.26-20.48.59:341][663]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.08.26-20.48.59:341][663]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.08.26-20.48.59:341][663]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.08.26-20.48.59:341][663]LogAudio: Display: Using built-in audio occlusion.
+[2021.08.26-20.48.59:341][663]LogAudioMixer: Display: Initializing audio mixer.
+[2021.08.26-20.48.59:346][663]LogAudioMixer: Display: 0: FrontLeft
+[2021.08.26-20.48.59:346][663]LogAudioMixer: Display: 1: FrontRight
+[2021.08.26-20.48.59:346][663]LogAudioMixer: Display: 2: FrontCenter
+[2021.08.26-20.48.59:346][663]LogAudioMixer: Display: 3: LowFrequency
+[2021.08.26-20.48.59:346][663]LogAudioMixer: Display: 4: BackLeft
+[2021.08.26-20.48.59:346][663]LogAudioMixer: Display: 5: BackRight
+[2021.08.26-20.48.59:346][663]LogAudioMixer: Display: 6: SideLeft
+[2021.08.26-20.48.59:346][663]LogAudioMixer: Display: 7: SideRight
+[2021.08.26-20.48.59:380][663]LogAudioMixer: Display: Using Audio Device Speakers (7.1 Surround Sound)
+[2021.08.26-20.48.59:380][663]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.08.26-20.48.59:380][663]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.08.26-20.48.59:380][663]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.08.26-20.48.59:381][663]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.08.26-20.48.59:394][663]LogInit: FAudioDevice initialized.
+[2021.08.26-20.48.59:405][663]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.08.26-20.48.59:412][663]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.08.26-21.48.59
+[2021.08.26-20.48.59:412][663]LogWorld: Bringing up level for play took: 0.005543
+[2021.08.26-20.48.59:413][663]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.08.26-20.48.59:415][663]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.26-20.48.59:415][663]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.08.26-20.48.59:415][663]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.08.26-20.48.59:417][663]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.08.26-20.48.59:417][663]PIE: Server logged in
+[2021.08.26-20.48.59:418][663]PIE: Play in editor total start time 0.173 seconds.
+[2021.08.26-20.49.13:669][262]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2021.08.26-20.49.13:669][262]LogGameState: Match State Changed from InProgress to LeavingMap
+[2021.08.26-20.49.13:669][262]LogNet: Browse: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2021.08.26-20.49.13:670][262]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap
+[2021.08.26-20.49.13:670][262]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.08.26-20.49.13:674][262]LogOutputDevice: Warning: 
+
+Script Stack (4 frames):
+BP_PlayerController_C.ExecuteUbergraph_BP_PlayerController
+BP_PlayerController_C.OnDeath
+ThirdPersonGameMode_C.ExecuteUbergraph_ThirdPersonGameMode
+ThirdPersonGameMode_C.OnDestroyed_Event_0
+
+[2021.08.26-20.49.14:254][262]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.581 s
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: === Handled ensure: ===
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: 
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: Ensure condition failed: !World->bIsTearingDown [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/UMG/Private/UserWidget.cpp] [Line: 2173]
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: Widget Class WBP_YouDied_C - Attempting to be created while tearing down the world 'ThirdPersonExampleMap'
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: Stack: 
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: [Callstack] 0x00007ff9cf2eb045 UE4Editor-UMG.dll!UnknownFunction []
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: [Callstack] 0x00007ff9cf19e974 UE4Editor-UMG.dll!UnknownFunction []
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: [Callstack] 0x00007ff9cf1a0316 UE4Editor-UMG.dll!UnknownFunction []
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: [Callstack] 0x00007ff9cf109515 UE4Editor-UMG.dll!UnknownFunction []
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: [Callstack] 0x00007ff9cf19a689 UE4Editor-UMG.dll!UnknownFunction []
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: [Callstack] 0x00007ff9cf2919ba UE4Editor-UMG.dll!UnknownFunction []
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: [Callstack] 0x00007ff9cf9a0b34 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: [Callstack] 0x00007ff9cfbf00ad UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: [Callstack] 0x00007ff9cfc130e3 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: [Callstack] 0x00007ff9cfc3ce4f UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: [Callstack] 0x00007ff9cfc1571d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: [Callstack] 0x00007ff9cfbe3bba UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: [Callstack] 0x00007ff9cfc15362 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: [Callstack] 0x00007ff9cfc1571d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: [Callstack] 0x00007ff9cfbe3bba UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: [Callstack] 0x00007ff9cfc15362 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: [Callstack] 0x00007ff9cfc130e3 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: [Callstack] 0x00007ff9cfc1571d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: [Callstack] 0x00007ff9cfbe3bba UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: [Callstack] 0x00007ff9cfc15362 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: [Callstack] 0x00007ff9cfc1571d UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: [Callstack] 0x00007ff9cfc14c24 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: [Callstack] 0x00007ff9cf9a0b34 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: [Callstack] 0x00007ff9cfc14753 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: [Callstack] 0x00007ff9c683afe5 UE4Editor-Engine.dll!UnknownFunction []
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: [Callstack] 0x00007ff9c67e0f0b UE4Editor-Engine.dll!UnknownFunction []
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: [Callstack] 0x00007ff9c6810048 UE4Editor-Engine.dll!UnknownFunction []
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: [Callstack] 0x00007ff9c708dad2 UE4Editor-Engine.dll!UnknownFunction []
+[2021.08.26-20.49.14:255][262]LogOutputDevice: Error: [Callstack] 0x00007ff9c7988c27 UE4Editor-Engine.dll!UnknownFunction []
+[2021.08.26-20.49.14:256][262]LogOutputDevice: Error: [Callstack] 0x00007ff9c7933882 UE4Editor-Engine.dll!UnknownFunction []
+[2021.08.26-20.49.14:256][262]LogOutputDevice: Error: [Callstack] 0x00007ff9c79adf5d UE4Editor-Engine.dll!UnknownFunction []
+[2021.08.26-20.49.14:256][262]LogOutputDevice: Error: [Callstack] 0x00007ff9c3a3aabd UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.08.26-20.49.14:256][262]LogOutputDevice: Error: [Callstack] 0x00007ff9c43137e6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2021.08.26-20.49.14:256][262]LogOutputDevice: Error: [Callstack] 0x00007ff657907800 UE4Editor.exe!UnknownFunction []
+[2021.08.26-20.49.14:256][262]LogOutputDevice: Error: [Callstack] 0x00007ff65791ba7c UE4Editor.exe!UnknownFunction []
+[2021.08.26-20.49.14:256][262]LogOutputDevice: Error: [Callstack] 0x00007ff65791bb5a UE4Editor.exe!UnknownFunction []
+[2021.08.26-20.49.14:256][262]LogOutputDevice: Error: [Callstack] 0x00007ff65792e31d UE4Editor.exe!UnknownFunction []
+[2021.08.26-20.49.14:256][262]LogOutputDevice: Error: [Callstack] 0x00007ff65793145a UE4Editor.exe!UnknownFunction []
+[2021.08.26-20.49.14:256][262]LogOutputDevice: Error: [Callstack] 0x00007ffa3e6b7034 KERNEL32.DLL!UnknownFunction []
+[2021.08.26-20.49.14:256][262]LogOutputDevice: Error: [Callstack] 0x00007ffa3eec2651 ntdll.dll!UnknownFunction []
+[2021.08.26-20.49.14:256][262]LogOutputDevice: Error: 
